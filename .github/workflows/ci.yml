@@ -1,0 +1,37 @@
+name:  buildit
+
+# Trigger on every master branch push and pull request
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+Windows:
+    runs-on: ${{ matrix.os }}
+    env:
+      MSBUILD_PATH: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\devenv.com
+      SLN_PATH: path\to\application.sln
+    strategy:
+      matrix:
+        os: [windows-latest]
+    steps:
+    - uses: actions/checkout@v1
+      with:
+        submodules: recursive
+    - name: Setup Nuget.exe
+      uses: warrenbuckley/Setup-Nuget@v1
+    - name: nuget restore
+      shell: cmd
+      run: nuget restore "%SLN_PATH%"
+    - name: compile debug
+      shell: cmd
+      run: |
+        "%MSBUILD_PATH%" "%SLN_PATH%" /build debug
+    - name: compile release
+      shell: cmd
+      run: |
+        "%MSBUILD_PATH%" "%SLN_PATH%" /build release
