@@ -1,0 +1,16 @@
+C:\Users\Botron\Source\Repos\testDotNetCliGithubActions\testApp\bin\Debug\net5.0-windows\testApp.exe
+C:\Users\Botron\Source\Repos\testDotNetCliGithubActions\testApp\bin\Debug\net5.0-windows\testApp.deps.json
+C:\Users\Botron\Source\Repos\testDotNetCliGithubActions\testApp\bin\Debug\net5.0-windows\testApp.runtimeconfig.json
+C:\Users\Botron\Source\Repos\testDotNetCliGithubActions\testApp\bin\Debug\net5.0-windows\testApp.runtimeconfig.dev.json
+C:\Users\Botron\Source\Repos\testDotNetCliGithubActions\testApp\bin\Debug\net5.0-windows\testApp.dll
+C:\Users\Botron\Source\Repos\testDotNetCliGithubActions\testApp\bin\Debug\net5.0-windows\ref\testApp.dll
+C:\Users\Botron\Source\Repos\testDotNetCliGithubActions\testApp\bin\Debug\net5.0-windows\testApp.pdb
+C:\Users\Botron\Source\Repos\testDotNetCliGithubActions\testApp\obj\Debug\net5.0-windows\testApp.csproj.AssemblyReference.cache
+C:\Users\Botron\Source\Repos\testDotNetCliGithubActions\testApp\obj\Debug\net5.0-windows\testApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Botron\Source\Repos\testDotNetCliGithubActions\testApp\obj\Debug\net5.0-windows\testApp.AssemblyInfoInputs.cache
+C:\Users\Botron\Source\Repos\testDotNetCliGithubActions\testApp\obj\Debug\net5.0-windows\testApp.AssemblyInfo.cs
+C:\Users\Botron\Source\Repos\testDotNetCliGithubActions\testApp\obj\Debug\net5.0-windows\testApp.csproj.CoreCompileInputs.cache
+C:\Users\Botron\Source\Repos\testDotNetCliGithubActions\testApp\obj\Debug\net5.0-windows\testApp.dll
+C:\Users\Botron\Source\Repos\testDotNetCliGithubActions\testApp\obj\Debug\net5.0-windows\ref\testApp.dll
+C:\Users\Botron\Source\Repos\testDotNetCliGithubActions\testApp\obj\Debug\net5.0-windows\testApp.pdb
+C:\Users\Botron\Source\Repos\testDotNetCliGithubActions\testApp\obj\Debug\net5.0-windows\testApp.genruntimeconfig.cache
